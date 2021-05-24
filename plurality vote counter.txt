@@ -2,8 +2,6 @@ import tkinter
 from tkinter import *
 from tkinter import ttk
 from tkinter import messagebox
-from tkinter import simpledialog
-from tkinter import filedialog as fd
 import sqlite3 as sqltor
 import matplotlib.pyplot as plt
 conn=sqltor.connect('main.db')
